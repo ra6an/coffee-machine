@@ -230,7 +230,7 @@ export default class CoffeeMachine {
       setTimeout(this.emptyWater.bind(this), 1000, 20);
       setTimeout(this.emptyCoffee.bind(this), 2000, 10);
       setTimeout(this.emptyMilk.bind(this), 3000, 10);
-      setTimeout(this.displayMsg.bind(this), 5000, "Capuchino finished");
+      setTimeout(this.displayMsg.bind(this), 6000, "Capuchino finished");
     }
   }
 }
